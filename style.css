@@ -1,0 +1,167 @@
+body {
+	margin: 0;
+	font-family: arial;
+	font-size: 13px;
+}
+
+
+
+.navbar {
+	float: right;
+	display: inline-block;
+	right: 25px;
+	position: relative;
+}
+
+.navbar ol li {
+	list-style: none;
+	display: inline;
+	padding: 5px 15px;
+	font-size: 14px;
+}
+
+.navbar ol li img {
+	position: relative;
+	top: 8px;
+}
+
+li.login {
+	background-color: blue;
+	border-radius: 6px;
+	padding: 15px 15px;
+	margin-left: 15px;
+	text-decoration: bold;
+	color: white;
+}
+
+img.googleicon {
+	display: inline;
+	float: left;
+	position: relative;
+	top: 180px;
+	left: calc(50% - 136px);
+}
+
+.form {
+	display: inline-block;
+	float: left;
+	position: relative;
+	margin: 0 auto;
+	top: 290px;
+	left: 90px;
+}
+input[type=text], select {
+  width: 600px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: black;
+  font-family: sans-serif;
+  text-shadow: 0 0 0.25px black;
+  font-size: 16px;
+  box-shadow: 0px 2.5px 2.5px gray;
+}
+
+#typelogo {
+	position: absolute;
+	left: 930px;
+	top: 313px;
+}
+
+.button {
+	padding: 10px 5px;
+	background-color: #ededed;
+	color: #444;
+	border-radius: 3px;
+	width: 130px;
+	height: 20px;
+	float: left;
+	display: inline;
+	position: relative;
+	text-align: center;
+	top: 320px;
+	padding-bottom: 5px;
+	border: 0.3px solid #ccc;
+}
+
+.button:hover {
+	cursor: pointer;
+}
+
+.one {
+	left: 220px;
+}
+
+.two {
+	
+	left: 250px;
+	width: 150px;
+}
+
+.one:hover, .two:hover {
+	background-color: #bcbcbc;
+	color: white;
+	transition: 0.3s;
+}
+
+#googleoffer {
+	position: absolute;
+	top: 450px;
+	text-align: center;
+	width: 100%;
+}
+
+.nav1 {
+	margin: 0;
+	padding-top: 15px;
+	float: left;
+	position: absolute;
+	left: 25px;
+	z-index: 5;
+}
+
+.nav2 {
+	margin: 0;
+	padding-top: 15px;
+	float: right;
+	position: absolute;
+	right: 25px;
+	z-index: 5;
+}
+
+.nav1 li {
+	display: inline-table;
+	padding: 0 10px;
+	margin: 0;
+	z-index: 5;
+}
+.nav2 li {
+	display: inline-table;
+	padding: 0 10px;
+	margin: 0;
+	z-index: 5;
+}
+.bottomfooter {
+	height: 40px;
+	background-color: silver;
+	width: 100%;
+	position: absolute;
+	top: 630px;
+	z-index: 1;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.topfooter {
+	position: relative;
+	top: 500px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	background-color: silver;
+	width: 100%;
+	color: black;
+	height: 40px;
+	clear: both;
+}This is my first google project
